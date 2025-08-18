@@ -8,8 +8,8 @@
  * @author Admin
  */
 public class Cala {
-   String owner;
-   int price;
+    String owner;
+    int price;
 
     public Cala() {
     }
@@ -34,10 +34,5 @@ public class Cala {
     public void setPrice(int price) {
         this.price = price;
     }
-
-    @Override
-    public String toString() {
-        return owner + ", " + price;
-    }
-   
+    
 }
